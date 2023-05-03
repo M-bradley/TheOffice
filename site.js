@@ -1,11 +1,11 @@
 // The base API Management URI
-const baseUri = "<REPLACE WITH YOUR API MANAGEMENT DOMAIN - e.g https://api.codeshed.dev>";
+const baseUri = "https://the-office-keys.developer.azure-api.net";
 
 // The Azure AD application registration client ID
-const clientId = "<REPLACE WITH YOUR AZURE AD APPLICATION ID>";
+const clientId = "7ce6d1e6-0913-49e7-a4d9-bf491802e0f7";
 
 // The Azure AD tenant ID
-const tenantId = "<REPLACE WITH YOUR AZURE AD TENANT ID>";
+const tenantId = "4b27a220-5468-4a96-ba9e-f500aa523a09";
 
 // The scope for the access token request to call the Microsoft Graph API
 // If a refresh token is also required for the application, add "offline_access" to the scope
