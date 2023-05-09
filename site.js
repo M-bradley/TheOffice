@@ -1,8 +1,8 @@
 // The base API Management URI
-const baseUri = "https://the-office-keys.developer.azure-api.net";
+const baseUri = "https://theoffice.azure-api.net";
 
 // The Azure AD application registration client ID
-const clientId = "7ce6d1e6-0913-49e7-a4d9-bf491802e0f7";
+const clientId = "52c66bdf-74b7-472f-abf2-d11600fab564";
 
 // The Azure AD tenant ID
 const tenantId = "4b27a220-5468-4a96-ba9e-f500aa523a09";
