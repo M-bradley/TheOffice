@@ -1,0 +1,46 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "auth",
+        "description": "A simple API to authenticate users with OAuth2 and OpenID Connect",
+        "version": "1.0"
+    },
+    "servers": [{
+        "url": ""
+    }],
+    "paths": {
+        "/callback": {
+            "get": {
+                "summary": "Callback",
+                "operationId": "callback",
+                "parameters": [{
+                    "name": "code",
+                    "in": "query",
+                    "description": "Authorization Code",
+                    "required": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }],
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/logout": {
+            "get": {
+                "summary": "Logout",
+                "operationId": "logout",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        }
+    },
+    "components": {},
+    "security": []
+}
